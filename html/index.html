@@ -147,49 +147,46 @@
           <section class="formulario" id="formulario">
             <h1 class="formulariotexto">Cotiza tus servicios</h1>
             <table>
-                <tr class="formu">
+                <tr>
                     <td>
-                        <form autocomplete="off" onsubmit="onFormSubmit()">
-                            <div class="contact__input-line">
-                                <label for="correo">Correo electrónico</label>
-                                <input type="text" name="correo" id="correo">
+                        <form onsubmit="event.preventDefault();onSubmitForm();">
+                            <div>
+                                <label>Nombre</label><label class="classValidate hide" id="labelId" >*Este campo es necesario</label>
+                                <input type="text" name="Nombre" id="Nombre">
                             </div>
-                            <div class="contact__input-line">
-                                <label for="nombre">Nombre</label>
-                                <input type="text" name="nombre" id="nombre">
+                            <div>
+                                <label>Email</label>
+                                <input type="email" name="Email" id="Email">
                             </div>
-                            <div class="contact__input-line">
-                                <label for="product">Producto</label>
-                                <input type="text" name="product" id="product">
+                            <div>
+                                <label>Producto</label>
+                                <input type="text" name="Producto" id="Producto">
                             </div>
-                            <div class="contact__input-line">
-                                <label for="detalles">Especificaciones</label>
-                                <input type="text" name="detalles" id="detalles">
+                            <div>
+                                <label>Especificaciones</label>
+                                <input type="text" name="Especificaciones" id="Especificaciones">
                             </div>
-        
-                            <div class="form_action--button">
+                            <div class="button">
                                 <input type="submit" value="Enviar">
-                                <input type="reset" value="Borrar">
                             </div>
                         </form>
+                    </td>
+                    <td>
+                        <table class="mainTable" id="employeeList">
+                            <thead>
+                                <th>Nombre</th>
+                                <th>Email</th>
+                                <th>Producto</th>
+                                <th>Especificaciones</th>
+                                <th></th>
+                            </thead>
+                            <tbody id="tbody">
         
-                        <td>
-                            <table class="list" id="storeList">
-                                <thead>
-                                    <tr>
-                                        <th>Correo electronico</th>
-                                        <th>Nombre</th>
-                                        <th>Productos</th>
-                                        <th>Especificaciones</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-        
-                                </tbody>
-                            </table>
-                        </td>
+                            </tbody>
+                        </table>
                     </td>
                 </tr>
+        
             </table>
           </section>
 
@@ -197,17 +194,13 @@
         <section class="footer__copy container">
             <div class="footer__social">
                 <a href="https://www.facebook.com/" class="footer__icons"><img src="../images/facebook.svg" class="footer__img"></a>
-                <a href="https://twitter.com/?lang=es" class="footer__icons"><img src="../images/twitter.svg" class="footer__img"></a>
+                <a href="https://github.com/Janicech1997/Proyecto2" class="footer__icons"><img src="../images/github_Mesa de trabajo 1.png" class="footer__img"></a>
                 <a href="https://www.youtube.com/" class="footer__icons"><img src="../images/youtube.svg" class="footer__img"></a>
             </div>
 
             <h3 class="footer__copyright">Derechos reservados &copy; Janice Chen</h3>
         </section>
     </footer>
-
-    <script src="../js/slider.js"></script>
-    <script src="../js/questions.js"></script>
-    <script src="../js/menu.js"></script>
     <script src="../js/formulario.js"></script>
 </body>
 
