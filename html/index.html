@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DESARROLLO WEB Y DISEÑO</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <img src="../images/Logo.png"
+                  alt="Logo" width="100" height="30" class="nav_title">
+            </div>
+
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="#inicio" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#nosotros" class="nav__links">Sobre nosotros</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#productos" class="nav__links">Productos</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#contactos" class="nav__links">Contacto</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#formulario" class="nav__links">Pide tu servicio</a>
+                </li>
+
+                <img src="../images/Logo.png" class="nav__close">
+            </ul>
+
+            <div class="nav__menu">
+                <img src="https://cdn.pixabay.com/photo/2018/01/29/13/03/internet-3116062__480.jpg" class="nav__img">
+            </div>
+        </nav>
+
+        <section class="hero__container container" id="inicio">
+            <h1 class="hero__title">Únete al mundo digital</h1>
+            <p class="hero__paragraph">Aumenta hoy mismo tús ventas junto a nosotros.</p>
+            <a href="#contactos" class="cta">Contactanos</a>
+        </section>
+    </header>
+
+
+        <section class="knowledge" id="nosotros">
+            <div class="knowledge__container container">
+                <div class="knowledege__texts">
+                    <h2 class="subtitle">¿Quiénes somos?</h2>
+                    <p class="knowledge__paragraph">"Nuestro equipo se dedica a la tecnología y el diseño aportando habilidades más allá de lo común en cada proyecto.
+                        Nos asociamos estrechamente con nuestros clientes para convertirnos en un asesor confiable y una extensión de su negocio, generando resultados digitales asombrosos. Nuestra misión es crear sitios web impresionantes y profesionales con UI / UX excepcionales y estrategias brillantes de SEO, PPC y Inbound Marketing enfocadas en la industria B2B.</p>
+                    <a href="#formulario" class="cta">Pide tu servicio</a>
+                </div>
+
+                <figure class="knowledge__picture">
+                    <img src="../images/disenadores.jpg" class="knowledge__img">
+                </figure>
+            </div>
+        </section>
+
+        <main>
+            <section class="container about" id="productos">
+                <h2 class="subtitle">Servicios</h2>
+                <p class="about__paragraph">Mira los servicios que brindamos en nuestra empresa.</p>
+    
+                <div class="about__main">
+                    <article class="about__icons">
+                        <img src="https://d1ih8jugeo2m5m.cloudfront.net/2021/12/ejemplos-de-paginas-web-01-1200x685.jpg" class="about__icon">
+                        <h3 class="about__title">Diseño web</h3>
+                        <p class="about__paragrah">Diseñamos webs únicas y amigables, con navegación sencilla, atendiendo los requerimientos de los usuarios. Nos adaptamos a tus necesidades y a tu presupuesto.</p>
+                    </article>
+    
+                    <article class="about__icons">
+                        <img src="https://lamenteesmaravillosa.com/wp-content/uploads/2015/01/mujer-en-proceso-creativo.jpg" class="about__icon">
+                        <h3 class="about__title">Branding</h3>
+                        <p class="about__paragrah">Creamos junto a la organización una estrategia creativa para abordar la problemática y llegar a la audiencia objetivo con el mayor impacto posible.</p>
+                    </article>
+    
+                    <article class="about__icons">
+                        <img src="https://www.brightmarketing.mx/wp-content/uploads/2019/11/brief-sitio-web.jpg" class="about__icon">
+                        <h3 class="about__title">Servicios especiales</h3>
+                        <p class="about__paragrah">Te ofrecemos consultorías totalmente personalizadas sobre diferentes temas de la comunicación y el diseño. ¿Necesitas el diseño de un producto o servicio específico? ¡Escribinos!</p>
+                    </article>
+                </div>
+            </section>
+
+            <Section class="contenido0" id="proyectos">
+                <div>
+                  <div class="Container">
+                    <h2 class="centrar-titulo">Proyectos realizados</h2>
+                      <div id="Panel_galeria">
+                        <div>
+                            <img src="../images/marca1.png" alt="fantasma" width="200" height="180">
+                            <label class="texto-proyecto">Proyecto 1</label>
+                        </div>
+                        <div>
+                            <img src="../images/marca2.png" alt="calabaza" width="200" height="180">
+                            <label class="texto-proyecto"><p>Proyecto 2</p></label>
+                        </div>
+                        <div>
+                            <img src="../images/marca3.png" alt="diseño" width="200" height="180">
+                            <label class="texto-proyecto"><p>Proyecto 3</p></label>
+                        </div>
+                      </div>     
+                  </div>
+                </div>
+            </Section>
+            
+        <section class="contact" id="contactos">
+            <div class="contact__image-wrapper">
+              <img src="https://signoscv.com/wp-content/uploads/2021/11/DW6.jpg" alt="">
+            </div>
+            <div class="contact__right-side">
+                <h1 class="contact__title">Contáctanos</h1>
+                <form action="" class="contact__form-wrapper">
+                    <div class="contact__input-line">
+                        <label for="name" class="contact__label">Nombre</label>
+                        <input type="text" name="name" id="name" class="contact__input">
+                    </div>
+                    <div class="contact__input-line">
+                        <label for="email" class="contact__label">Email</label>
+                        <input type="email" name="email" id="email" class="contact__input">
+                    </div>
+                    <div class="contact__input-line">
+                        <label for="subject" class="contact__label">Asunto</label>
+                        <input type="text" name="subject" id="subject" class="contact__input">
+                    </div>
+                    <div class="contact__input-line">
+                        <label for="message" class="contact__label">Mensaje</label>
+                        <textarea type="text" name="message" id="message" class="contact__input--textarea"></textarea>
+                    </div>
+                    <a href="#formulario" class="cta">Pide tu servicio</a>
+                    
+                </form>
+            </div>
+          </section>
+          <section class="formulario" id="formulario">
+            <h1 class="formulariotexto">Cotiza tus servicios</h1>
+            <table>
+                <tr>
+                    <td>
+                        <form onsubmit="event.preventDefault();onSubmitForm();">
+                            <div>
+                                <label>Nombre</label><label class="classValidate hide" id="labelId" >*Este campo es necesario</label>
+                                <input type="text" name="Nombre" id="Nombre">
+                            </div>
+                            <div>
+                                <label>Email</label>
+                                <input type="email" name="Email" id="Email">
+                            </div>
+                            <div>
+                                <label>Producto</label>
+                                <input type="text" name="Producto" id="Producto">
+                            </div>
+                            <div>
+                                <label>Especificaciones</label>
+                                <input type="text" name="Especificaciones" id="Especificaciones">
+                            </div>
+                            <div class="button">
+                                <input type="submit" value="Enviar">
+                            </div>
+                        </form>
+                    </td>
+                    <td>
+                        <table class="mainTable" id="employeeList">
+                            <thead>
+                                <th>Nombre</th>
+                                <th>Email</th>
+                                <th>Producto</th>
+                                <th>Especificaciones</th>
+                                <th></th>
+                            </thead>
+                            <tbody id="tbody">
+        
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+        
+            </table>
+          </section>
+
+    <footer class="footer">
+        <section class="footer__copy container">
+            <div class="footer__social">
+                <a href="https://www.facebook.com/" class="footer__icons"><img src="../images/facebook.svg" class="footer__img"></a>
+                <a href="https://github.com/Janicech1997/Proyecto2" class="footer__icons"><img src="../images/github_Mesa de trabajo 1.png" class="footer__img"></a>
+                <a href="https://www.youtube.com/" class="footer__icons"><img src="../images/youtube.svg" class="footer__img"></a>
+            </div>
+
+            <h3 class="footer__copyright">Derechos reservados &copy; Janice Chen</h3>
+        </section>
+    </footer>
+    <script src="../js/formulario.js"></script>
+</body>
+
+</html>
