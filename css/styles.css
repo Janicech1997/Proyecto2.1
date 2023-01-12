@@ -352,7 +352,7 @@ table.list{
     width: 100%;
 }
 td{
-    border: 1px solid rgb(238, 144, 144);
+    border: 1px solid rgb(255, 237, 237);
     text-align: left;
     padding: 8px 15px;
 }
@@ -366,42 +366,53 @@ tr:nth-child(even), table.list thread> tr{
     padding:12px 20px;
     margin:8px 0;
     display: inline-block;
-    border: 1px solid rgb(231, 143, 143);
+    border: 1px solid rgb(165,161,161);
     border-radius: 4px;
 }
 
-input[type=text],input[type=email]{
-    width: 100%;
-    padding: 12px 10px;
-    margin-bottom:10px;
-    box-sizing: border-box;
-    border: 1px solid rgb(104, 162, 227);
-    border-radius: 15px;
-}
-input[type=submit]{
-    width: 30%;
-    padding: 5px 15px;
-    box-sizing: border-box;
-    color: white;
-    background-color: rgb(218, 118, 236);
+.formulita[type="submit"],input[type="reset"]{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
     border: none;
-    border-radius: 15px;
-}
-.button{
-    text-align: center;
-}
-a{
-    color: blue;
-    margin-left: 15px;
-    text-decoration: underline;
+    border-radius: 30px;
+    font-size: 1rem;
     cursor: pointer;
+    outline: none;
 }
-.classValidate{
-    color: red;
-    margin-left: 5px;
+.formulita[type="reset"],input[type="submit"]{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
 }
-.hide{
-    display: none;
+
+.formulita[type="submit"]:hover{
+    background: #4b99d8;
+}
+
+.formulita[type="reset"]:hover{
+    background: #4b99d8;
+}
+button{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+button:hover{
+    background:#4b99d8 ;
 }
 
 

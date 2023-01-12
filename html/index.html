@@ -116,19 +116,98 @@
                 </div>
             </Section>
             
+        <section class="contact" id="contactos">
+            <div class="contact__image-wrapper">
+              <img src="https://signoscv.com/wp-content/uploads/2021/11/DW6.jpg" alt="">
+            </div>
+            <div class="contact__right-side">
+                <h1 class="contact__title">Contáctanos</h1>
+                <form action="" class="contact__form-wrapper">
+                    <div class="contact__input-line">
+                        <label for="name" class="contact__label">Nombre</label>
+                        <input type="text" name="name" id="name" class="contact__input">
+                    </div>
+                    <div class="contact__input-line">
+                        <label for="email" class="contact__label">Email</label>
+                        <input type="email" name="email" id="email" class="contact__input">
+                    </div>
+                    <div class="contact__input-line">
+                        <label for="subject" class="contact__label">Asunto</label>
+                        <input type="text" name="subject" id="subject" class="contact__input">
+                    </div>
+                    <div class="contact__input-line">
+                        <label for="message" class="contact__label">Mensaje</label>
+                        <textarea type="text" name="message" id="message" class="contact__input--textarea"></textarea>
+                    </div>
+                    <a href="#formulario" class="cta">Pide tu servicio</a>
+                    
+                </form>
+            </div>
+          </section>
+          <section class="formulario" id="formulario">
+            <h1 class="formulariotexto">Cotiza tus servicios</h1>
+            <table>
+                <tr class="formu">
+                    <td>
+                        <form autocomplete="off" onsubmit="onFormSubmit()">
+                            <div class="contact__input-line">
+                                <label for="correo">Correo electrónico</label>
+                                <input type="text" name="correo" id="correo">
+                            </div>
+                            <div class="contact__input-line">
+                                <label for="nombre">Nombre</label>
+                                <input type="text" name="nombre" id="nombre">
+                            </div>
+                            <div class="contact__input-line">
+                                <label for="product">Producto</label>
+                                <input type="text" name="product" id="product">
+                            </div>
+                            <div class="contact__input-line">
+                                <label for="detalles">Especificaciones</label>
+                                <input type="text" name="detalles" id="detalles">
+                            </div>
         
+                            <div class="form_action--button">
+                                <input type="submit" value="Enviar">
+                                <input type="reset" value="Borrar">
+                            </div>
+                        </form>
+        
+                        <td>
+                            <table class="list" id="storeList">
+                                <thead>
+                                    <tr>
+                                        <th>Correo electronico</th>
+                                        <th>Nombre</th>
+                                        <th>Productos</th>
+                                        <th>Especificaciones</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+        
+                                </tbody>
+                            </table>
+                        </td>
+                    </td>
+                </tr>
+            </table>
+          </section>
 
     <footer class="footer">
         <section class="footer__copy container">
             <div class="footer__social">
                 <a href="https://www.facebook.com/" class="footer__icons"><img src="../images/facebook.svg" class="footer__img"></a>
-                <a href="https://github.com/Janicech1997/Proyecto2" class="footer__icons"><img src="../images/github_Mesa de trabajo 1.png" class="footer__img"></a>
+                <a href="https://twitter.com/?lang=es" class="footer__icons"><img src="../images/twitter.svg" class="footer__img"></a>
                 <a href="https://www.youtube.com/" class="footer__icons"><img src="../images/youtube.svg" class="footer__img"></a>
             </div>
 
             <h3 class="footer__copyright">Derechos reservados &copy; Janice Chen</h3>
         </section>
     </footer>
+
+    <script src="../js/slider.js"></script>
+    <script src="../js/questions.js"></script>
+    <script src="../js/menu.js"></script>
     <script src="../js/formulario.js"></script>
 </body>
 
