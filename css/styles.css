@@ -369,29 +369,7 @@ tr:nth-child(even), table.list thread> tr{
     border: 1px solid rgb(231, 143, 143);
     border-radius: 4px;
 }
-button:hover{
-    background:#4b99d8 ;
-}
-body>table{
-    width: 90%;
-    border-spacing: 20px;
-    
-}
-.mainTable{
-    width: 100%;
-    border-collapse: collapse;
-}
-tr:nth-child(even),table.mainTable thead>tr{
-    background-color: #dddddd;
-    border-color: white;
-}
-table.mainTable tbody>tr:nth-child(odd){
-    background-color: white;
-}
-td,th{
-    border: 2px solid #dddddd;
-    padding: 10px;
-}
+
 input[type=text],input[type=email]{
     width: 100%;
     padding: 12px 10px;
